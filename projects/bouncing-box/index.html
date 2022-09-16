@@ -73,8 +73,7 @@
 			*/
 			function update() {
 				/* The code to increase positionX by 10 HERE */
-				positionX = positionX + 10;
-				positionX = speed + 10;
+				positionX = positionX + speed;
 				moveBoxTo(positionX);
 
 			};
@@ -88,6 +87,7 @@
 				positionX = 0;
 				points = points + 1;
 				changeBoxText(points);
+				speed = speed + 3;
 
 
 			};
