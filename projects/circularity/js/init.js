@@ -49,14 +49,14 @@ for (var i = 0; i < 100; i++) {
         function update() {
             // TODO 4 : Update the circle's position //
 
-for (var i2 = 0; i2 < physikz.updatePosition(circles).length; i2++) {
-    var eachCircle = physikz.updatePosition(circles[i2]);
+for (var i2 = 0; i2 < circles.length; i2++) {
+    var eachCircle = circles[i2];
     physikz.updatePosition(eachCircle);
     game.checkCirclePosition(eachCircle);
 }
             
             // TODO 5 / 10 : Call game.checkCirclePosition() on your circles.
-//the for loop runs the physikz.updatePosition(circle) function and the checkCirclePosition(eachCircle) function for every circle, so we don't have to repeat the function call for every circle//
+//the for loop runs the physikz.updatePosition(eachCircle) function and the checkCirclePosition(eachCircle) function for every circle, so we don't have to repeat the function call for every circle//
             // TODO 9 : Iterate over the array
            
             
