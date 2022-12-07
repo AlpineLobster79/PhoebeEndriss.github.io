@@ -51,6 +51,7 @@ for (var i = 0; i < 100; i++) {
 
 for (var i2 = 0; i2 < physikz.updatePosition(circles).length; i2++) {
     var eachCircle = physikz.updatePosition(circles[i2]);
+    physikz.updatePosition(eachCircle);
     game.checkCirclePosition(eachCircle);
 }
             
