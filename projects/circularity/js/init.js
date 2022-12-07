@@ -51,14 +51,11 @@ for (var i = 0; i < 100; i++) {
 
 for (var i = 0; i < physikz.updatePosition.length(circles); i++) {
     var eachCircle = physikz.updatePosition(circles[i]);
+    game.checkCirclePosition(eachCircle);
 }
             
             // TODO 5 / 10 : Call game.checkCirclePosition() on your circles.
-           game.checkCirclePosition(circles[0]);
-           game.checkCirclePosition(circles[1]);
-           game.checkCirclePosition(circles[2]);
-           game.checkCirclePosition(circles[3]);
-           game.checkCirclePosition(circles[4]);
+
             // TODO 9 : Iterate over the array
            
             
