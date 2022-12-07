@@ -55,7 +55,7 @@ for (var i = 0; i < physikz.updatePosition.length(circles); i++) {
 }
             
             // TODO 5 / 10 : Call game.checkCirclePosition() on your circles.
-
+//the for loop runs the physikz.updatePosition(circle) function and the checkCirclePosition(eachCircle) function for every circle, so we don't have to repeat the function call for every circle//
             // TODO 9 : Iterate over the array
            
             
